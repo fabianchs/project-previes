@@ -26,7 +26,7 @@ export const Home = () => (
 					<div
 						className="bg-image p-4 text-center shadow-1-strong rounded rounded-5 mb-5 text-white "
 						style={{
-							backgroundImage: `url("https://watchandlearn.scholastic.com/content/dam/classroom-magazines/watchandlearn/videos/animals-and-plants/plants/what-are-plants-/What-Are-Plants.jpg")`
+							backgroundImage: `url("https://bs.plantnet.org/image/o/85256a1c2c098e254fefe05040626a4df49ce248")`
 						}}>
 						<div className="row">
 							<h1 id="texto-borde" className="col-12">
@@ -34,7 +34,7 @@ export const Home = () => (
 							</h1>
 						</div>
 						<div className="row d-flex justify-content-start">
-							<div className="col-xl-6 col-lg-8 col-md-8 col-sm-10 shadow m-0 p-0">
+							<div className="col-xl-5 col-lg-8 col-md-8 col-sm-10 shadow m-0 p-0">
 								<ListGroupItem className="justify-content-between bg-transparent">
 									<div className="m-1 ">
 										<Label check>
