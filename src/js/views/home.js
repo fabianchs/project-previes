@@ -1,65 +1,81 @@
 import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 import "../../styles/home.scss";
-import { ListGroupItem, Button, CardImg, Label, Input, FormGroup, Col, ButtonToggle } from "reactstrap";
+import { ListGroupItem, Button, CardImg, Label, Input, FormGroup, Col, ButtonToggle, Badge } from "reactstrap";
 
 export const Home = () => (
-	<div className="text-center mt-5">
+	<div className="text-center m-5">
 		<h1>Hello Rigo!</h1>
-		<div className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-			<div>
-				<div
-					className="bg-image p-4 text-center shadow-1-strong rounded rounded-5 mb-5 text-white "
-					style={{
-						backgroundImage: `url("https://watchandlearn.scholastic.com/content/dam/classroom-magazines/watchandlearn/videos/animals-and-plants/plants/what-are-plants-/What-Are-Plants.jpg")`
-					}}>
-					<div className="row">
-						<h1 id="texto-borde" className="col-12">
-							Quercus rotundifolia
-						</h1>
+		<div className="row">
+			<div className="m-0 col-xl-4 col-lg-6 col-md-6 col-sm-12">
+				<div className="m-0 row d-flex justify-content-end">
+					<div className="row m-0 p-0 ps-4 ">
+						<Button className="bg-dark border-dark border-rounded-top m-0 p-0 d-flex align-items-end">
+							<Badge color="dark" pill>
+								Modificar
+							</Badge>
+						</Button>
+						<Button className="bg-danger border-danger border-rounded-top m-0 me-2 p-0 d-flex align-items-end">
+							<Badge color="danger" pill>
+								X
+							</Badge>
+						</Button>
 					</div>
-					<div className="row d-flex justify-content-start">
-						<div className="col-xl-4 col-lg-6 col-md-8 col-sm-10 shadow m-0 p-0">
-							<ListGroupItem className="justify-content-between bg-transparent">
-								<div className="m-1 ">
-									<Label check>
-										<Input type="checkbox" id="task-text" /> Tarea de prueba
-									</Label>
-								</div>
-							</ListGroupItem>
-							<ListGroupItem className="justify-content-between bg-transparent">
-								<div className="m-1 ">
-									<Label check>
-										<Input type="checkbox" className="ps-2" /> Tarea de prueba
-									</Label>
-								</div>
-							</ListGroupItem>
-							<ListGroupItem className="justify-content-between bg-transparent">
-								<div className="m-1 ">
-									<Label check>
-										<Input type="checkbox" className="ps-2" /> Tarea de prueba
-									</Label>
-								</div>
-							</ListGroupItem>
-							<ListGroupItem className="justify-content-between bg-transparent">
-								<div className="m-1 ">
-									<Label check>
-										<Input type="checkbox" className="ps-2" /> Tarea de prueba
-									</Label>
-								</div>
-							</ListGroupItem>
-							<ListGroupItem className="justify-content-between bg-transparent">
-								<div className="m-1 ">
-									<Label check>
-										<Input type="checkbox" className="ps-2" /> Tarea de prueba
-									</Label>
-								</div>
-							</ListGroupItem>
+				</div>
+				<div className="shadow-lg">
+					<div
+						className="bg-image p-4 text-center shadow-1-strong rounded rounded-5 mb-5 text-white "
+						style={{
+							backgroundImage: `url("https://watchandlearn.scholastic.com/content/dam/classroom-magazines/watchandlearn/videos/animals-and-plants/plants/what-are-plants-/What-Are-Plants.jpg")`
+						}}>
+						<div className="row">
+							<h1 id="texto-borde" className="col-12">
+								Quercus rotundifolia
+							</h1>
+						</div>
+						<div className="row d-flex justify-content-start">
+							<div className="col-xl-6 col-lg-8 col-md-8 col-sm-10 shadow m-0 p-0">
+								<ListGroupItem className="justify-content-between bg-transparent">
+									<div className="m-1 ">
+										<Label check>
+											<Input type="checkbox" id="task-text" /> Tarea de prueba
+										</Label>
+									</div>
+								</ListGroupItem>
+								<ListGroupItem className="justify-content-between bg-transparent">
+									<div className="m-1 ">
+										<Label check>
+											<Input type="checkbox" className="ps-2" /> Tarea de prueba
+										</Label>
+									</div>
+								</ListGroupItem>
+								<ListGroupItem className="justify-content-between bg-transparent">
+									<div className="m-1 ">
+										<Label check>
+											<Input type="checkbox" className="ps-2" /> Tarea de prueba
+										</Label>
+									</div>
+								</ListGroupItem>
+								<ListGroupItem className="justify-content-between bg-transparent">
+									<div className="m-1 ">
+										<Label check>
+											<Input type="checkbox" className="ps-2" /> Tarea de prueba
+										</Label>
+									</div>
+								</ListGroupItem>
+								<ListGroupItem className="justify-content-between bg-transparent">
+									<div className="m-1 ">
+										<Label check>
+											<Input type="checkbox" className="ps-2" /> Tarea de prueba
+										</Label>
+									</div>
+								</ListGroupItem>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div id="container1">
+			{/* <div id="container1">
 				<img
 					src="https://watchandlearn.scholastic.com/content/dam/classroom-magazines/watchandlearn/videos/animals-and-plants/plants/what-are-plants-/What-Are-Plants.jpg"
 					alt="Norway"
@@ -92,8 +108,8 @@ export const Home = () => (
 					</div>
 				</div>
 			</div>
-		</div>
-		<div>
+		</div> */}
+			{/* <div>
 			<div className="col-md-2">
 				<div className="card card-coin card-plain">
 					<div className="card-header">
@@ -180,7 +196,7 @@ export const Home = () => (
 						</div>
 					</div>
 				</div>
-			</div>
+			</div>*/}
 		</div>
 	</div>
 );
